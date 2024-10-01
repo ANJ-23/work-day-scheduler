@@ -89,14 +89,16 @@ $(function () {
   // current hour in 24-hour time?
   
   // colors a time block depending on if it's in the past, present, or future
+  // Past = grey, Future = green, Present = red
   function timeBlockColor(hour, rowBG) {
-    if (hour.diff(dayjs(), 'hour') < 0) {
+    if (hour.diff(dayjs(), 'minute') < 0) {
       rowBG.addClass("past");
     }
-    else if (hour.diff(dayjs(), 'hour') > 0) {
+    else if (hour.diff(dayjs(), 'minute') > 0) {
+      console.log(hour.diff(dayjs(), 'minute'));
       rowBG.addClass("future");
     }
-    else if (hour.diff(dayjs(), 'hour') == 0) {
+    else if (hour.diff(dayjs(), 'minute') == 0) {
       rowBG.addClass("present");
     }
   }
