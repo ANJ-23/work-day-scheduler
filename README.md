@@ -14,7 +14,7 @@ N/A
 
 Open the website (<https://anj-23.github.io/work-day-scheduler/>), type in any desired text inside of a schedule row, and click on the 'Save' button on the row's right to store a text for later use. The text can be overwritten by editing and/or deleting existing text, then pressing the adjacent 'Save' button.
 
-The background color of the time slots change based on whether they're in the past, present or future. Furthermore, a live date and clock are on the top of the page to cross-reference the schedule.
+The background color of the time slots change based on whether they're in the past, present or future (past = gray, present = red, future = green). Furthermore, a live date and clock are on the top of the page to cross-reference the schedule.
 
 ![alt text](images/screenshot.jpg)
 
